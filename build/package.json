@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-"build": "mkdir build && copy *.js build && copy package.json build",
+    "build": "mkdir build && copy *.js build && copy package.json build",
     "start": "node build/index.js"
   },
-
- 
-
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -26,6 +23,7 @@
     "mongoose": "^8.13.1",
     "multer": "^1.4.5-lts.2",
     "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.9",
     "path": "^0.12.7",
     "react-scripts": "^5.0.1"
   },
@@ -35,6 +33,4 @@
     "@babel/node": "^7.26.0",
     "@babel/preset-env": "^7.26.9"
   }
-
-
 }
